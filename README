@@ -1,0 +1,33 @@
+# Setup and Running Instructions
+
+First, navigate to the project directory:
+```bash
+cd /Users/zachmoore/Documents/Code
+```
+
+Then, choose ONE of these methods:
+
+## Method 1: Using Conda Environment
+```bash
+# Activate the conda environment
+conda activate ./env
+
+# Run the script
+python Test.py
+
+# Deactivate the conda environment when done
+conda deactivate
+```
+
+## Method 2: Using Virtual Environment (venv)
+```bash
+# Activate the virtual environment
+source .venv/bin/activate
+
+# Run the script
+python Test.py
+
+# Deactivate the virtual environment
+deactivate .venv
+```
+Note: Use only one method at a time. Do not mix conda and venv commands.
